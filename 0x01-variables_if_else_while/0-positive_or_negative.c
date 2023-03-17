@@ -3,16 +3,18 @@
 #include <stdio.h>
 
 /**
- * main - prints a random number n and state condition is positive or negative.c
+ * main - Prints a random number and states whether
+ *        it is positive, negative, or zero.
  *
- * Return: Returns 0.
- */
+ * Return: Always 0.
+*/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND _ MAX / 2;
+	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n < 0)
