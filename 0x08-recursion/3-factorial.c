@@ -6,7 +6,7 @@
  */
 int factorial(int n)
 {
-	int z;
+	int x;
 
 	if (n == 0)
 	{
@@ -18,8 +18,8 @@ int factorial(int n)
 	}
 	else
 	{
-	z = n * factorial(n - 1);
+		x = n * factorial(n - 1);
 	}
-return (x);
+			return (x);
 
 }
